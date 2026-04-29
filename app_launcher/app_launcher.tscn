@@ -1,10 +1,20 @@
 [gd_scene format=3 uid="uid://ckureirivskne"]
 
 [ext_resource type="Texture2D" uid="uid://cbg8ja7sxnpkj" path="res://icon.svg" id="1_lvdj6"]
+[ext_resource type="Script" uid="uid://cxbiynki46ec7" path="res://app_bar/app_launcher/app_launcher.gd" id="2_mob4p"]
 
 [node name="AppLauncher" type="Button" unique_id=98546334]
-offset_right = 8.0
-offset_bottom = 8.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+button_mask = 7
 icon = ExtResource("1_lvdj6")
 icon_alignment = 1
 expand_icon = true
+script = ExtResource("2_mob4p")
+
+[connection signal="button_down" from="." to="." method="_on_button_down"]
+[connection signal="button_up" from="." to="." method="_on_button_up"]
+[connection signal="pressed" from="." to="." method="_on_pressed"]
