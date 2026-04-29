@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://bj53k5rugmp4x"]
 
 [ext_resource type="Texture2D" uid="uid://d0bpv5ucm7glt" path="res://app_bar/launcher.svg" id="1_cv8v3"]
+[ext_resource type="Script" uid="uid://c8f8nogjdcm1u" path="res://app_bar/app_bar.gd" id="1_unqke"]
+[ext_resource type="PackedScene" uid="uid://ckureirivskne" path="res://app_bar/app_launcher/app_launcher.tscn" id="2_s6c83"]
 
 [node name="AppBar" type="PanelContainer" unique_id=1433645505]
 anchors_preset = 12
@@ -10,8 +12,10 @@ anchor_bottom = 1.0
 offset_top = -8.0
 grow_horizontal = 2
 grow_vertical = 0
+script = ExtResource("1_unqke")
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=853092423]
+unique_name_in_owner = true
 layout_mode = 2
 theme_override_constants/margin_left = 4
 theme_override_constants/margin_top = 4
@@ -19,17 +23,121 @@ theme_override_constants/margin_right = 4
 theme_override_constants/margin_bottom = 4
 
 [node name="BarControls" type="HBoxContainer" parent="MarginContainer" unique_id=1316538447]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 40)
 layout_mode = 2
 
 [node name="Launcher" type="Button" parent="MarginContainer/BarControls" unique_id=567640241]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(40, 0)
 layout_mode = 2
-size_flags_horizontal = 2
+size_flags_horizontal = 0
 icon = ExtResource("1_cv8v3")
+icon_alignment = 1
+expand_icon = true
 
 [node name="ApplicationsContainer" type="HBoxContainer" parent="MarginContainer/BarControls" unique_id=1498177668]
+unique_name_in_owner = true
 layout_mode = 2
-size_flags_horizontal = 3
+size_flags_horizontal = 6
+size_flags_vertical = 3
+
+[node name="AppLauncher" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=1962146579 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher2" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=98546334 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher3" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=294207960 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher4" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=1626402817 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher5" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=1715618523 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher6" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=421415141 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher7" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=1594531 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher8" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=456282291 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher9" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=600089586 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher10" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=968539649 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher11" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=1705627330 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher12" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=785601761 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher13" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=1889658778 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher14" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=1116266047 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher15" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=518928299 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher16" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=1092507935 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher17" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=1832706899 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher18" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=329594062 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AppLauncher19" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=957721958 instance=ExtResource("2_s6c83")]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
+size_flags_horizontal = 4
 
 [node name="SystemContainer" type="HBoxContainer" parent="MarginContainer/BarControls" unique_id=897276894]
+unique_name_in_owner = true
 layout_mode = 2
-size_flags_horizontal = 10
+size_flags_horizontal = 8

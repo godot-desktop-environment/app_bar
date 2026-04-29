@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://ckureirivskne"]
+
+[ext_resource type="Texture2D" uid="uid://cbg8ja7sxnpkj" path="res://icon.svg" id="1_lvdj6"]
+
+[node name="AppLauncher" type="Button" unique_id=98546334]
+offset_right = 8.0
+offset_bottom = 8.0
+icon = ExtResource("1_lvdj6")
+icon_alignment = 1
+expand_icon = true
