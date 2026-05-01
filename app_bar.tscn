@@ -51,6 +51,7 @@ size_flags_horizontal = 4
 custom_minimum_size = Vector2(40, 0)
 layout_mode = 2
 size_flags_horizontal = 4
+path = "brave-browser"
 
 [node name="AppLauncher3" parent="MarginContainer/BarControls/ApplicationsContainer" unique_id=294207960 instance=ExtResource("2_s6c83")]
 custom_minimum_size = Vector2(40, 0)
@@ -141,3 +142,5 @@ size_flags_horizontal = 4
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 8
+
+[connection signal="resized" from="." to="." method="_on_resized"]

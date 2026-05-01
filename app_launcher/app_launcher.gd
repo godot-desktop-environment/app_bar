@@ -18,8 +18,7 @@ func _on_button_up() -> void:
 func _on_pressed() -> void:
 	if current_mouse_button & MOUSE_BUTTON_MASK_LEFT == MOUSE_BUTTON_MASK_LEFT:
 		OS.create_process(path, [])
-		print("left")
 	elif current_mouse_button & MOUSE_BUTTON_MASK_RIGHT == MOUSE_BUTTON_MASK_RIGHT:
-		print("right")
+		pass
 	elif current_mouse_button & MOUSE_BUTTON_MASK_MIDDLE == MOUSE_BUTTON_MASK_MIDDLE:
-		print("middle")
+		pass
