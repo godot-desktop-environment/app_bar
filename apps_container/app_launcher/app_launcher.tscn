@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://ckureirivskne"]
 
 [ext_resource type="Texture2D" uid="uid://cbg8ja7sxnpkj" path="res://icon.svg" id="1_lvdj6"]
-[ext_resource type="Script" uid="uid://cxbiynki46ec7" path="res://app_bar/app_launcher/app_launcher.gd" id="2_mob4p"]
+[ext_resource type="Script" uid="uid://cxbiynki46ec7" path="res://app_bar/apps_container/app_launcher/app_launcher.gd" id="2_mob4p"]
 
 [node name="AppLauncher" type="Button" unique_id=98546334]
 anchors_preset = 15
