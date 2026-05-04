@@ -1,10 +1,35 @@
 [gd_scene format=3 uid="uid://cmfx1h5ssmvsm"]
 
+[ext_resource type="Texture2D" uid="uid://dc2kou11gv585" path="res://app_bar/system_container/volume_high.svg" id="1_5rkij"]
+[ext_resource type="Texture2D" uid="uid://ug8enx2fay6" path="res://app_bar/system_container/network_wired.svg" id="1_syw6v"]
+
 [node name="SystemContainer" type="HBoxContainer" unique_id=1747946214]
 custom_minimum_size = Vector2(0, 40)
-offset_right = 139.0
+offset_right = 151.0
 offset_bottom = 40.0
 alignment = 1
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1740904092]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer" unique_id=106377273]
+layout_mode = 2
+
+[node name="NetworkWiredButton" type="Button" parent="PanelContainer/HBoxContainer" unique_id=91903966]
+custom_minimum_size = Vector2(24, 24)
+layout_mode = 2
+icon = ExtResource("1_syw6v")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="VolumeButton" type="Button" parent="PanelContainer/HBoxContainer" unique_id=1336048184]
+custom_minimum_size = Vector2(24, 24)
+layout_mode = 2
+icon = ExtResource("1_5rkij")
+flat = true
+icon_alignment = 1
+expand_icon = true
 
 [node name="DatetimeButton" type="Button" parent="." unique_id=116900926]
 layout_mode = 2

@@ -14,7 +14,6 @@ offset_top = -8.0
 grow_horizontal = 2
 grow_vertical = 0
 script = ExtResource("1_unqke")
-apps_size = null
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=853092423]
 unique_name_in_owner = true
@@ -31,7 +30,6 @@ layout_mode = 2
 
 [node name="Launcher" parent="MarginContainer/BarControls" unique_id=1106084937 instance=ExtResource("2_unqke")]
 unique_name_in_owner = true
-custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
 
 [node name="AppsContainer" parent="MarginContainer/BarControls" unique_id=1902505726 instance=ExtResource("3_unqke")]

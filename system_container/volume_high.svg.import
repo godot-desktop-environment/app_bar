@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ug8enx2fay6"
-path="res://.godot/imported/network.svg-9e84eae70441d10ecf3dbd2d27593d2c.ctex"
+uid="uid://dc2kou11gv585"
+path="res://.godot/imported/volume_high.svg-db22630eac52a1f8400e1d766e96e731.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://app_bar/system_container/network.svg"
-dest_files=["res://.godot/imported/network.svg-9e84eae70441d10ecf3dbd2d27593d2c.ctex"]
+source_file="res://app_bar/system_container/volume_high.svg"
+dest_files=["res://.godot/imported/volume_high.svg-db22630eac52a1f8400e1d766e96e731.ctex"]
 
 [params]
 
@@ -38,6 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=10.0
+svg/scale=1.0
 editor/scale_with_editor_scale=false
 editor/convert_colors_with_editor_theme=false
