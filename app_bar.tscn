@@ -40,5 +40,3 @@ layout_mode = 2
 [node name="SystemContainer" parent="MarginContainer/BarControls" unique_id=1362421230 instance=ExtResource("4_n8ese")]
 unique_name_in_owner = true
 layout_mode = 2
-
-[connection signal="resized" from="." to="." method="_on_resized"]
