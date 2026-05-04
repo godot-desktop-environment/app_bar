@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://d0bpv5ucm7glt" path="res://app_bar/launcher.svg" id="1_wvkql"]
 
 [node name="Launcher" type="Button" unique_id=1106084937]
-custom_minimum_size = Vector2(40, 0)
+custom_minimum_size = Vector2(40, 40)
 size_flags_horizontal = 0
 icon = ExtResource("1_wvkql")
 icon_alignment = 1

@@ -85,62 +85,50 @@ unique_name_in_owner = true
 layout_mode = 2
 
 [node name="AppLauncher18" parent="HBoxContainer/UnpinnedContainer" unique_id=84571077 instance=ExtResource("1_k3tmr")]
-visible = false
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher19" parent="HBoxContainer/UnpinnedContainer" unique_id=1664228720 instance=ExtResource("1_k3tmr")]
-visible = false
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher20" parent="HBoxContainer/UnpinnedContainer" unique_id=313991733 instance=ExtResource("1_k3tmr")]
-visible = false
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher21" parent="HBoxContainer/UnpinnedContainer" unique_id=1840749803 instance=ExtResource("1_k3tmr")]
-visible = false
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher22" parent="HBoxContainer/UnpinnedContainer" unique_id=73009332 instance=ExtResource("1_k3tmr")]
-visible = false
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher23" parent="HBoxContainer/UnpinnedContainer" unique_id=1444406805 instance=ExtResource("1_k3tmr")]
-visible = false
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher24" parent="HBoxContainer/UnpinnedContainer" unique_id=1553638695 instance=ExtResource("1_k3tmr")]
-visible = false
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher25" parent="HBoxContainer/UnpinnedContainer" unique_id=1984984286 instance=ExtResource("1_k3tmr")]
-visible = false
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher26" parent="HBoxContainer/UnpinnedContainer" unique_id=1061983135 instance=ExtResource("1_k3tmr")]
-visible = false
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher27" parent="HBoxContainer/UnpinnedContainer" unique_id=97799892 instance=ExtResource("1_k3tmr")]
-visible = false
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher28" parent="HBoxContainer/UnpinnedContainer" unique_id=191218134 instance=ExtResource("1_k3tmr")]
-visible = false
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher29" parent="HBoxContainer/UnpinnedContainer" unique_id=1624219352 instance=ExtResource("1_k3tmr")]
-visible = false
 layout_mode = 2
 size_flags_horizontal = 4
 

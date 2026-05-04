@@ -1,8 +1,9 @@
 [gd_scene format=3 uid="uid://cmfx1h5ssmvsm"]
 
 [node name="SystemContainer" type="HBoxContainer" unique_id=1747946214]
+custom_minimum_size = Vector2(0, 40)
 offset_right = 139.0
-offset_bottom = 31.0
+offset_bottom = 40.0
 alignment = 1
 
 [node name="DatetimeButton" type="Button" parent="." unique_id=116900926]
