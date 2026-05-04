@@ -50,61 +50,73 @@ layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher6" parent="PinnedContainer" unique_id=384246929 instance=ExtResource("1_k3tmr")]
+visible = false
 custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher7" parent="PinnedContainer" unique_id=1474737767 instance=ExtResource("1_k3tmr")]
+visible = false
 custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher8" parent="PinnedContainer" unique_id=95538417 instance=ExtResource("1_k3tmr")]
+visible = false
 custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher9" parent="PinnedContainer" unique_id=1418107553 instance=ExtResource("1_k3tmr")]
+visible = false
 custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher10" parent="PinnedContainer" unique_id=1415602366 instance=ExtResource("1_k3tmr")]
+visible = false
 custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher11" parent="PinnedContainer" unique_id=150085555 instance=ExtResource("1_k3tmr")]
+visible = false
 custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher12" parent="PinnedContainer" unique_id=1331809545 instance=ExtResource("1_k3tmr")]
+visible = false
 custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher13" parent="PinnedContainer" unique_id=65334585 instance=ExtResource("1_k3tmr")]
+visible = false
 custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher14" parent="PinnedContainer" unique_id=621168678 instance=ExtResource("1_k3tmr")]
+visible = false
 custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher15" parent="PinnedContainer" unique_id=1524056083 instance=ExtResource("1_k3tmr")]
+visible = false
 custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher16" parent="PinnedContainer" unique_id=1181592602 instance=ExtResource("1_k3tmr")]
+visible = false
 custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
 size_flags_horizontal = 4
 
 [node name="AppLauncher17" parent="PinnedContainer" unique_id=1653534686 instance=ExtResource("1_k3tmr")]
+visible = false
 custom_minimum_size = Vector2(40, 40)
 layout_mode = 2
 size_flags_horizontal = 4

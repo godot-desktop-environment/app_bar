@@ -4,14 +4,20 @@ extends HBoxContainer
 const AppLauncher := preload("res://app_bar/apps_container/app_launcher/app_launcher.gd")
 
 
+func _get_visible_child_count(node: Control) -> int:
+	return node.get_children().filter(
+		func(c: Control): return c.visible
+	).size()
+
+
 func adjust_apps_size(s: int, total_space: int) -> void:
 	# Discover available space for the launchers.
 	var gap: int = get_theme_constant("separation")
-	var count: int = get_child_count()
+	var count: int = _get_visible_child_count(self)
 	var pinned_gap: int = %PinnedContainer.get_theme_constant("separation")
-	var pinned_count: int = %PinnedContainer.get_child_count()
+	var pinned_count: int = _get_visible_child_count(%PinnedContainer)
 	var unpinned_gap: int = %UnpinnedContainer.get_theme_constant("separation")
-	var unpinned_count: int = %UnpinnedContainer.get_child_count()
+	var unpinned_count: int = _get_visible_child_count(%UnpinnedContainer)
 	var available_space: float = (
 		total_space -
 		# Everything that cost space.

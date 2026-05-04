@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://c8f8nogjdcm1u" path="res://app_bar/app_bar.gd" id="1_unqke"]
 [ext_resource type="PackedScene" uid="uid://c7sqgioxvsf16" path="res://app_bar/launcher/launcher.tscn" id="2_unqke"]
 [ext_resource type="PackedScene" uid="uid://b6isybkuurqfx" path="res://app_bar/apps_container/apps_container.tscn" id="3_unqke"]
+[ext_resource type="PackedScene" uid="uid://cmfx1h5ssmvsm" path="res://app_bar/system_container/system_container.tscn" id="4_n8ese"]
 
 [node name="AppBar" type="PanelContainer" unique_id=1433645505]
 anchors_preset = 12
@@ -36,9 +37,8 @@ layout_mode = 2
 unique_name_in_owner = true
 layout_mode = 2
 
-[node name="SystemContainer" type="HBoxContainer" parent="MarginContainer/BarControls" unique_id=897276894]
+[node name="SystemContainer" parent="MarginContainer/BarControls" unique_id=1362421230 instance=ExtResource("4_n8ese")]
 unique_name_in_owner = true
 layout_mode = 2
-size_flags_horizontal = 8
 
 [connection signal="resized" from="." to="." method="_on_resized"]
